@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Landing from './components/landing';
-import About from './components/About'
+import About from './components/about';
 
 function App() {
   return (
