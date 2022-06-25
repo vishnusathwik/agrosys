@@ -14,7 +14,7 @@ function about() {
     <div class="container">
   <div class="row">
     <div class="col-md-12 text-center">
-      <h3 style="font-size: 8vw;" class="animate-charcter"> AGRINET</h3>
+      <h3  class="animate-charcter"> AGRINET</h3>
     </div>
   </div>
 
