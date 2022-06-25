@@ -36,7 +36,6 @@ function about() {
     </div>
   </div>
 
-<<<<<<< HEAD
     </div>
     <p>
     AgriNet believes that we have a responsibility to the people around us. Through transparency and accountability
@@ -51,9 +50,6 @@ function about() {
     </div>
   </div>
 </div>
-=======
-    
->>>>>>> b6d27196f1766dbaef32ceb113686c7552d05ab2
 
   )
 }
