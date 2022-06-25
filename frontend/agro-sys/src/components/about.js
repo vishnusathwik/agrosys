@@ -10,8 +10,14 @@ import "../css/about.css";
 function about() {
   return (
     <div>
-      
-      <h2>THE AGRINET GROUP OF COMPANIES</h2>
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 style="font-size: 8vw;" class="animate-charcter"> AGRINET</h3>
+    </div>
+  </div>
+
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -43,9 +49,8 @@ function about() {
           </div>
         </div>
       </div>
-  
 
-<<<<<<< HEAD
+
     </div>
     <p>
     AgriNet believes that we have a responsibility to the people around us. Through transparency and accountability
@@ -53,26 +58,8 @@ function about() {
     us to strive in producing the highest service we can consistently.
     </p>
 
-    <div class="container">
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h3 class="animate-charcter"> AGRINET</h3>
-    </div>
-  </div>
+
 </div>
-=======
-    
-      <p>
-        AgriNet believes that we have a responsibility to the people around us. Through transparency and accountability
-        we want to inspire trust in the community. Our passion for the food industry and the consumer we serve empowers
-        us to strive in producing the highest service we can consistently.
-      </p>
-
-     
-    </div>
-
-
->>>>>>> ee78d4b253a13167030e86ba854bbf1b124af071
 
   )
 }
