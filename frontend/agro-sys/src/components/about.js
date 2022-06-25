@@ -27,6 +27,19 @@ function about() {
   </div>
 
     </div>
+    <p>
+    AgriNet believes that we have a responsibility to the people around us. Through transparency and accountability
+    we want to inspire trust in the community. Our passion for the food industry and the consumer we serve empowers
+    us to strive in producing the highest service we can consistently.
+    </p>
+
+    <div class="container">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="animate-charcter"> AGRINET</h3>
+    </div>
+  </div>
+</div>
 
   )
 }
