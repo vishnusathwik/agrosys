@@ -1,8 +1,10 @@
 import React from 'react'
-import Farming from './images/farming.jfif'
-import Lemongrass from './images/lemongrass.jfif'
-import Lemongrass2 from './images/lemongrass2.jfif'
-import Lemongrass3 from './images/lemongrass3.jfif'
+import Farming from '../images/farming.jpeg'
+import Lemongrass from '../images/lemongrass.png'
+import Lemongrass2 from '../images/lemongrass2.jpeg'
+import Lemongrass3 from '../images/lemongrass3.avif'
+
+
 
 function about() {
   return (
