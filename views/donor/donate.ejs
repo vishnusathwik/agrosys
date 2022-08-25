@@ -18,7 +18,7 @@
                 <label for="food" class="form-label">Activity Name</label>
                 <input
                     type="text"
-                    name="donation[foodType]"
+                    name="donation[activityName]"
                     class="form-control"
                     id="food"
                     placeholder="Enter food.."
@@ -44,7 +44,7 @@
                     <label for="time" class="form-label">Start Date</label>
                     <input
                         type="datetime-local"
-                        name="donation[cookingTime]"
+                        name="donation[startDate]"
                         class="form-date-input"
                         id="time"
                         required
@@ -54,19 +54,18 @@
                     <label for="address" class="form-label">Upload Image</label>
                     <input
                         type="file"
-                        name="donation[address]"
+                        name="donation[imgString]"
                         class="form-control"
                         id="address"
                         placeholder="Please add an image"
                         value="<%= currentUser.address %>"
-                        required
                     />
                 </div>
                 <div class="mb-4 col-sm-6">
                     <label for="time" class="form-label">End Date</label>
                     <input
                         type="datetime-local"
-                        name="donation[cookingTime]"
+                        name="donation[endDate]"
                         class="form-date-input"
                         id="time"
                         required
@@ -77,12 +76,12 @@
                     <label for="address" class="form-label">Location</label>
                     <input
                         type="text"
-                        name="donation[address]"
+                        name="donation[location]"
                         class="form-control"
                         id="address"
                         placeholder="Enter address.."
                         value="<%= currentUser.address %>"
-                        required
+                        
                     />
                 </div>
             </div>
@@ -92,7 +91,7 @@
                     <label for="food" class="form-label"> Name</label>
                     <input
                         type="text"
-                        name="donation[foodType]"
+                        name="donation[workerName]"
                         class="form-control"
                         id="food"
                         placeholder="Name"
@@ -106,7 +105,7 @@
                     >
                     <input
                         type="range"
-                        name="donation[foodType]"
+                        name="donation[workDuration]"
                         class="form-control"
                         id="food"
                         min="0"
@@ -136,7 +135,7 @@
                     <label for="food" class="form-label"> Wages</label>
                     <input
                         type="text"
-                        name="donation[foodType]"
+                        name="donation[wages]"
                         class="form-control"
                         id="food"
                         placeholder="Wages paid"
@@ -151,7 +150,7 @@
                     <label for="food" class="form-label"> Asset ID</label>
                     <input
                         type="text"
-                        name="donation[foodType]"
+                        name="donation[assetId]"
                         class="form-control"
                         id="food"
                         placeholder="Unique ID"
@@ -166,7 +165,7 @@
                     >
                     <input
                         type="range"
-                        name="donation[foodType]"
+                        name="donation[assetDuration]"
                         class="form-control"
                         id="food"
                         min="0"
@@ -203,7 +202,7 @@
                         </label>
                         <input
                             type="text"
-                            name="donation[foodType]"
+                            name="donation[typeMaterialcon]"
                             class="form-control"
                             id="food"
                             placeholder=""
@@ -218,7 +217,7 @@
                         >
                         <input
                             type="text"
-                            name="donation[foodType]"
+                            name="donation[unitsConsumed]"
                             class="form-control"
                             id="food"
                             placeholder=""
@@ -233,7 +232,7 @@
                         >
                         <input
                             type="text"
-                            name="donation[foodType]"
+                            name="donation[costInvolved]"
                             class="form-control"
                             id="food"
                             placeholder=""
@@ -248,15 +247,15 @@
                 <h2>Materials Produced</h2>
         <div class="mb-4 col-sm-4">
           <label for="food" class="form-label"> Type of material</label>
-          <input type="text" name="donation[foodType]" class="form-control" id="food" placeholder="" required autofocus>
+          <input type="text" name="donation[typeMaterialpro]" class="form-control" id="food" placeholder="" required autofocus>
         </div>
         <div class="mb-4 col-sm-4">
           <label for="food" class="form-label"> Units</label>
-          <input type="text" name="donation[foodType]" class="form-control" id="food" placeholder="" required autofocus>
+          <input type="text" name="donation[unitsProduced]" class="form-control" id="food" placeholder="" required autofocus>
         </div>
         <div class="mb-4 col-sm-4">
           <label for="food" class="form-label"> Storage location</label>
-          <input type="text" name="donation[foodType]" class="form-control" id="food" placeholder="" required autofocus>
+          <input type="text" name="donation[storageLocation]" class="form-control" id="food" placeholder="" required autofocus>
         </div>
             </div>
 
@@ -268,7 +267,7 @@
                 >
                 <textarea
                     type="text"
-                    name="donation[donorToAdminMsg]"
+                    name="donation[Message]"
                     class="form-control"
                     id="msg"
                     placeholder="You can write here some msg.."

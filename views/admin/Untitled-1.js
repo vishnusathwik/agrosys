@@ -2,12 +2,6 @@ const mongoose = require("mongoose");
 
 
 const activitySchema = new mongoose.Schema({
-	donor: {
-		type: mongoose.Schema.Types.ObjectId,
-		ref: "users",
-		required: true
-	},
-	
 	activityName: {
 		type: String,
 		// ref: "users",
@@ -78,6 +72,9 @@ const activitySchema = new mongoose.Schema({
 	//	required: true
 	//},
 });
+
+
+
 
 const Donation = mongoose.model("donations", activitySchema);
 module.exports = Donation;

@@ -25,12 +25,12 @@
 					<% for(let i=0; i<previousDonations.length; i++) { %>
 						<tr>
 							<th scope="row"> <%= i+1 %> </th>
-							<td> <%= previousDonations[i].foodType %> </td>
+							<td> <%= previousDonations[i].activityName %> </td>
 							<td> <%= previousDonations[i].quantity %> </td>
-							<td class="fw-bold text-<%= previousDonations[i].status %>"> <%= previousDonations[i].status %> </td>
-							<td> <%= previousDonations[i].cookingTime.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short"}) %> </td>
-							<td> <%= previousDonations[i].agent.Name %> </td>
-							<td> <%= previousDonations[i].collectionTime.toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short"}) %> </td>
+							<td> <%= previousDonations[i].wages %> </td>
+							<td> <%= previousDonations[i].storageLocation %> </td>
+							<td> <%= previousDonations[i].msg %> </td>
+							<td> <%= previousDonations[i].workerName %> </td>
 						</tr>
 					<% } %>
 				</tbody>
